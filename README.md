@@ -4,6 +4,8 @@ Kamis, 24 April 2025.
 
 Dokumentasi proyek online technical workshop Hacktiv8.
 
+Catatan: Dokumentasi di bawah ini tidak membahas kesuluruhan topik Workshop dan hanya membahas tentang implementasi Chatbot AI menggunakan Next.js 15, Gemini, dan Shadcn secara umum.
+
 ## Deskripsi
 
 Di proyek ini, kita akan membuat chatbot AI berbasis web menggunakan Next.js 15, Google Gemini, dan Shadcn UI. Tujuannya? Agar kamu bisa memiliki chatbot modern yang tampilannya menarik dan juga cerdas berkat Gemini. Proyek ini dibangun sebagai bagian dari online technical workshop Hacktiv8, sehingga cocok untuk kamu yang ingin belajar integrasi AI ke dalam aplikasi web modern.
