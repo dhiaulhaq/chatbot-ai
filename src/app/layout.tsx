@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -24,10 +25,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className="bg-gray-100 text-gray-900">
+        <nav className="bg-white shadow p-4">
+          <div className="flex gap-4">
+            <Link href="/" className="text-blue-600 hover:underline">
+              Home
+            </Link>
+            <Link href="/about" className="text-blue-600 hover:underline">
+              About
+            </Link>
+            <Link href="/notes" className="text-blue-600 hover:underline">
+              Notes
+            </Link>
+            <Link href="/chat" className="text-blue-600 hover:underline">
+              Chat
+            </Link>
+          </div>
+        </nav>
+        <main>{children}</main>
       </body>
     </html>
   );
