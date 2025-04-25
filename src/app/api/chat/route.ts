@@ -2,8 +2,6 @@ import { createGoogleGenerativeAI } from "@ai-sdk/google";
 import { streamText } from "ai";
 import { NextResponse } from "next/server";
 
-export const maxDuration = 30;
-
 export async function POST(req: Request) {
   const { messages } = await req.json();
 
